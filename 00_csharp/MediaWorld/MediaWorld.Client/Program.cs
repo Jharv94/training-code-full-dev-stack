@@ -1,7 +1,7 @@
 ﻿using System;
 using MediaWorld.Domain.Abstracts;
 using MediaWorld.Domain.Models;
-//using MediaWorld.Domain.Singletons;
+using MediaWorld.Domain.Singletons;
 
 
 namespace MediaWorld.Client
