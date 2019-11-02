@@ -1,0 +1,29 @@
+2019-11-01 12:15:44.821 -05:00 [INF] Play Method
+2019-11-01 12:15:44.951 -05:00 [DBG] Untitled, 00:00:00| Author: Untitled, Narrator: Untitled Pagecount:24, BitRate: 128
+2019-11-01 12:15:44.957 -05:00 [DBG] Untitled, 00:00:00| Author: Untitled, Narrator:  Pagecount:0, BitRate: 128
+2019-11-01 12:15:44.958 -05:00 [DBG] Untitled, 00:00:00| Director: Untitled, FrameRate: 24
+2019-11-01 12:15:45.171 -05:00 [DBG] Untitled, 00:00:00| Director: Untitled, FrameRate: 0
+2019-11-01 12:15:45.382 -05:00 [WRN] end of Main Method
+2019-11-01 12:18:27.358 -05:00 [INF] Play Method
+2019-11-01 12:18:27.416 -05:00 [DBG] {"Author":"Untitled","Narrator":"Untitled","PageCount":24,"BitRate":128,"Title":"Untitled","Duration":"00:00:00","$type":"Book"}
+2019-11-01 12:18:27.427 -05:00 [DBG] {"Author":"Untitled","Narrator":null,"PageCount":0,"BitRate":128,"Title":"Untitled","Duration":"00:00:00","$type":"Song"}
+2019-11-01 12:18:27.431 -05:00 [DBG] {"Director":"Untitled","FrameRate":24,"Title":"Untitled","Duration":"00:00:00","$type":"Movie"}
+2019-11-01 12:18:27.644 -05:00 [DBG] {"Director":"Untitled","FrameRate":0,"Title":"Untitled","Duration":"00:00:00","$type":"Photo"}
+2019-11-01 12:18:27.867 -05:00 [WRN] end of Main Method
+2019-11-01 12:21:53.467 -05:00 [INF] Play Method
+2019-11-01 12:21:53.511 -05:00 [DBG] Untitled
+2019-11-01 12:21:53.513 -05:00 [DBG] Untitled
+2019-11-01 12:21:53.513 -05:00 [DBG] Untitled
+2019-11-01 12:21:53.724 -05:00 [DBG] Untitled
+2019-11-01 12:21:53.942 -05:00 [WRN] end of Main Method
+2019-11-01 12:22:57.535 -05:00 [INF] Play Method
+2019-11-01 12:22:57.580 -05:00 [DBG] Untitled
+2019-11-01 12:22:57.582 -05:00 [DBG] Untitled
+2019-11-01 12:22:57.582 -05:00 [DBG] Untitled
+2019-11-01 12:22:57.796 -05:00 [DBG] Untitled
+2019-11-01 12:22:58.006 -05:00 [WRN] end of Main Method
+2019-11-01 17:09:49.187 -05:00 [WRN] end of Main Method
+2019-11-01 17:11:40.467 -05:00 [WRN] end of Main Method
+2019-11-01 17:12:32.343 -05:00 [WRN] end of Main Method
+2019-11-01 17:12:35.652 -05:00 [WRN] end of Main Method
+2019-11-01 17:12:38.426 -05:00 [WRN] end of Main Method
