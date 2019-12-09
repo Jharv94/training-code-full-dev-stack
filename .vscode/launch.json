@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/00_csharp/HelloWorld/HelloWorld.Client/bin/Debug/netcoreapp3.0/HelloWorld.Client.dll",
+            "program": "${workspaceFolder}/Palindrome/Palindrome.Client/bin/Debug/netcoreapp3.0/Palindrome.Client.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/00_csharp/HelloWorld/HelloWorld.Client",
+            "cwd": "${workspaceFolder}/Palindrome/Palindrome.Client",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false

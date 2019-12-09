@@ -19,12 +19,12 @@ namespace MediaWorld.Client
       /// <summary>
       /// starts the application
       /// </summary>
-      private static async Task Main()
+      private static void Main()
       {
-        var program = new Program();
-        program.ApplicationStart();
-        //Play();
-        await MagicAsync();
+        //var program = new Program();
+        //program.ApplicationStart();
+        Play();
+        //await MagicAsync();
         Console.WriteLine("end of code");
         //Log.Warning("end of Main Method");
       }

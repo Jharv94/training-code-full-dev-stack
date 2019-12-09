@@ -1,6 +1,8 @@
 #!/bin/sh
 
 ## configuration :: docker
+apt update
+
 apt-get install --yes \
     apt-transport-https \
     ca-certificates \
