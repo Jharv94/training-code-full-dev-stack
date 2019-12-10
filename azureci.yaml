@@ -1,4 +1,4 @@
-name: $(date:yyyymmdd)$(rev:.rr) #20191209.10
+name: $(date:yyyyMMdd)$(rev:.rr) #20191209.10
 
 trigger:
   - master
@@ -11,5 +11,12 @@ stages:
         pool:
           vmImage: ubuntu-18.04
         steps:
-          - script: |
-              dotnet build 3_devops/DevopsTrial.sln
+          - script: dotnet build 3_devops/DevopsTrial.sln
+  - stage: test
+    jobs:
+      - job: aspnet_test
+        pool:
+          vmImage: ubuntu-18.04
+        steps:
+          - script: dotnet test 3_devops/DevopsTrial.sln --collect:"XPlat Code Coverage"
+    
