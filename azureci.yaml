@@ -36,8 +36,8 @@ stages:
           - script: dotnet install --global dotnet-sonarscanner
           - script: |
               dotnet sonarscanner begin /k:devops-John /d:sonar-login=$SONAR_TOKEN /o:jharv94
-              dotnet build
-              dotnet test
+              dotnet build 3_devops/DevopsTrial.sln
+              dotnet test 3_devops/DevopsTrial.sln
               dotnet sonarscanner end /d:sonar-login=$SONAR_TOKEN
             env:
               SONAR_TOKEN: $(SONAR_LOGIN)
@@ -56,5 +56,5 @@ stages:
               DOCKER_TOKEN: $(docker.token)
               DOCKER_USER: $(docker.user)
           - script: docker image push jharv94/devopsdemo:$BUILD_NAME
-              env:
-                BUILD_NAME: $(Build.DefinitionName)
+            env:
+              BUILD_NAME: $(Build.DefinitionName)
